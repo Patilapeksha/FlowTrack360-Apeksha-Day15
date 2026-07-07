@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    overflow:hidden;
+}
+
+.employee-page{
+    height:100vh;
+    padding:12px;
+}
+
+
+.header{
+    height:70px;
+    background:linear-gradient(135deg,#4f46e5,#2563eb);
+    color:white;
+    padding:15px 20px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:12px;
+}
+
+
+.header h1{
+    font-size:22px;
+}
+
+.header p{
+    font-size:12px;
+}
+
+
+.add-btn{
+    background:white;
+    color:#2563eb;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    font-size:13px;
+    cursor:pointer;
+}
+
+
+.search-box{
+    margin-bottom:12px;
+}
+
+
+.search-box input{
+    width:100%;
+    height:35px;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:13px;
+}
+
+
+.employee-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:12px;
+}
+
+
+.employee-card{
+    height:220px;
+    background:white;
+    border-radius:10px;
+    padding:12px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.12);
+}
+
+
+.avatar{
+    width:50px;
+    height:50px;
+    margin:auto;
+    border-radius:50%;
+    background:linear-gradient(135deg,#4f46e5,#2563eb);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:bold;
+}
+
+
+.employee-card h3{
+    font-size:15px;
+    margin:8px 0;
+}
+
+
+.employee-card p{
+    font-size:11px;
+    margin:5px 0;
+    color:#555;
+}
+
+
+.active{
+    color:green;
+    font-weight:bold;
+}
+
+
+.leave{
+    color:orange;
+    font-weight:bold;
+}
+
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:6px;
+    margin-top:10px;
+}
+
+
+.buttons button{
+    border:none;
+    padding:5px 10px;
+    border-radius:5px;
+    color:white;
+    font-size:11px;
+    cursor:pointer;
+}
+
+
+.view{
+    background:#2563eb;
+}
+
+
+.edit{
+    background:#10b981;
+}
+
+
+.delete{
+    background:#ef4444;
+}
+
+
+.view:hover{
+    background:#1d4ed8;
+}
+
+
+.edit:hover{
+    background:#059669;
+}
+
+
+.delete:hover{
+    background:#dc2626;
+}

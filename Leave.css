@@ -1,0 +1,241 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    overflow:hidden;
+}
+
+
+.leave-page{
+
+    height:100vh;
+    padding:15px;
+    background:#f4f7fb;
+    font-family:"Segoe UI",Arial,sans-serif;
+
+}
+
+
+.leave-header{
+
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:12px;
+
+}
+
+
+.leave-header h1{
+
+    margin:0;
+    color:#1e3a8a;
+    font-size:22px;
+
+}
+
+
+.leave-header p{
+
+    margin:4px 0;
+    color:#64748b;
+    font-size:13px;
+
+}
+
+
+
+.apply-btn,
+.export-btn{
+
+    border:none;
+    color:white;
+    padding:10px 15px;
+    border-radius:7px;
+    cursor:pointer;
+    margin-left:8px;
+
+}
+
+
+.apply-btn{
+
+    background:#16a34a;
+
+}
+
+
+.export-btn{
+
+    background:#2563eb;
+
+}
+
+.leave-summary{
+
+    display:flex;
+    gap:12px;
+    margin-bottom:15px;
+
+}
+
+
+.leave-card{
+
+    flex:1;
+    height:75px;
+    background:white;
+    padding:12px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.08);
+
+}
+
+
+.leave-card h3{
+
+    margin:0;
+    color:#64748b;
+    font-size:12px;
+
+}
+
+
+.leave-card h2{
+
+    margin:8px 0;
+    color:#2563eb;
+    font-size:22px;
+}
+
+.leave-table{
+
+    height:calc(100vh - 170px);
+    background:white;
+    padding:12px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+
+th{
+
+    background:#2563eb;
+    color:white;
+    padding:10px;
+    font-size:13px;
+    text-align:left;
+
+}
+
+
+td{
+
+    padding:9px;
+    font-size:13px;
+    border-bottom:1px solid #ddd;
+
+}
+
+
+
+tr:hover{
+
+    background:#f8fafc;
+
+}
+
+.employee{
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-weight:600;
+
+}
+
+
+.avatar{
+
+    height:32px;
+    width:32px;
+    border-radius:50%;
+    background:#dbeafe;
+    color:#2563eb;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+
+}
+
+
+.status{
+
+    padding:5px 12px;
+    border-radius:15px;
+    font-size:12px;
+    font-weight:600;
+
+}
+
+
+.Pending{
+
+    background:#fef3c7;
+    color:#b45309;
+
+}
+
+
+.Approved{
+
+    background:#dcfce7;
+    color:#15803d;
+
+}
+
+
+.Rejected{
+
+    background:#fee2e2;
+    color:#dc2626;
+
+}
+
+
+.approve{
+
+    background:#16a34a;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-right:5px;
+
+}
+
+
+.reject{
+
+    background:#dc2626;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:5px;
+    cursor:pointer;
+
+}

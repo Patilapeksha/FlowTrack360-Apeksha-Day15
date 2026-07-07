@@ -1,0 +1,226 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    overflow:hidden;
+}
+
+
+.attendance-page{
+
+    height:100vh;
+    padding:15px;
+    background:#f4f7fb;
+    font-family:"Segoe UI",Arial,sans-serif;
+
+}
+
+
+.attendance-header{
+
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:12px;
+
+}
+
+
+.attendance-header h1{
+
+    margin:0;
+    font-size:22px;
+    color:#1e3a8a;
+
+}
+
+
+.attendance-header p{
+
+    margin:3px 0;
+    font-size:13px;
+    color:#64748b;
+
+}
+
+
+.attendance-header button{
+
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:9px 18px;
+    border-radius:7px;
+    cursor:pointer;
+
+}
+
+.summary-section{
+
+    display:flex;
+    gap:12px;
+    margin-bottom:15px;
+
+}
+
+
+.summary-card{
+
+    height:75px;
+    flex:1;
+    background:white;
+    border-radius:10px;
+    padding:12px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.08);
+
+}
+
+
+.summary-card h3{
+
+    margin:0;
+    font-size:12px;
+    color:#64748b;
+
+}
+
+
+.summary-card h2{
+
+    margin:8px 0 0;
+    font-size:22px;
+    color:#2563eb;
+
+}
+
+
+.attendance-table-box{
+
+    height:calc(100vh - 180px);
+    background:white;
+    padding:12px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    overflow:hidden;
+
+}
+
+
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+
+th{
+
+    background:#2563eb;
+    color:white;
+    padding:10px;
+    font-size:13px;
+
+}
+
+
+td{
+
+    padding:9px;
+    font-size:13px;
+    border-bottom:1px solid #ddd;
+
+}
+
+
+
+.employee-name{
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+}
+
+
+
+.avatar{
+
+    height:32px;
+    width:32px;
+    border-radius:50%;
+    background:#dbeafe;
+    color:#2563eb;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+
+}
+
+
+.status{
+
+    padding:4px 10px;
+    border-radius:15px;
+    font-size:12px;
+    font-weight:600;
+
+}
+
+
+.Present{
+
+    background:#dcfce7;
+    color:#15803d;
+
+}
+
+
+.Absent{
+
+    background:#fee2e2;
+    color:#dc2626;
+
+}
+
+
+.Late{
+
+    background:#fef3c7;
+    color:#b45309;
+
+}
+
+
+
+.present-btn,
+.absent-btn{
+
+    border:none;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+    font-size:12px;
+    cursor:pointer;
+
+}
+
+
+.present-btn{
+
+    background:#16a34a;
+    margin-right:4px;
+
+}
+
+
+.absent-btn{
+
+    background:#dc2626;
+
+}
